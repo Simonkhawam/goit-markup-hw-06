@@ -1031,3 +1031,83 @@ hr {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
+/* form */
+form {
+  margin-top: 25px;
+}
+form label {
+  position: relative;
+}
+.person-img {
+  position: absolute;
+  left: 76px;
+  top: 1px;
+}
+form label input:focus {
+  border: 2px solid red;
+  outline: none;
+}
+form label input:focus + .person-img {
+  color: red;
+}
+form label input {
+  padding: 0 25px;
+}
+
+/* Formular */
+
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  width: 18px;
+  height: 18px;
+}
+/* from portofilio */
+form {
+  margin-top: 25px;
+}
+form label {
+  position: relative;
+}
+
+form label input {
+  padding: 0 35px;
+}
+form label input:focus,
+.input-icon-name:focus {
+  border: 2px solid red;
+}
+.input-icon-name {
+  padding: 0 35px;
+}
+input {
+  padding: 20px;
+}
+.input-icon-name {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  width: 448px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.text-form-title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
