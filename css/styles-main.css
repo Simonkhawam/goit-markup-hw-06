@@ -780,7 +780,7 @@ hr {
   width: 528px;
   height: 581px;
   flex-shrink: 0;
-  overflow: auto;
+
   top: 50px;
   left: 29%;
   border-radius: 4px;
@@ -1111,4 +1111,41 @@ input {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
+}
+/* test subscription */
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/*  */
+.text-sub {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.email-sub{
+
+}
+
+.inside-box-email {
+position: relative;
+top: 36px;
+left: 10px;
 }
