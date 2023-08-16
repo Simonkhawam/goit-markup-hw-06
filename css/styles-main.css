@@ -1063,12 +1063,13 @@ form label input {
   flex-direction: column;
   gap: 4px;
   margin-top: 20px;
-  padding: 20px;
+  padding: 0px;
+  left: 30px;
 }
 .input-icon {
   position: absolute;
-  top: 50%;
-  left: 35px;
+  top: 56%;
+  left: 12px;
   width: 18px;
   height: 18px;
 }
