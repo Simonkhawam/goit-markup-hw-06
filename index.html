@@ -634,13 +634,13 @@
       <div id="myModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-          <p>Some text in the Modal..</p>
+       
           <form class="form">
             <h1 class="text-form-title">
               Leave your information and we'll call you back
             </h1>
             <div class="form-group">
-              <label for="Name" name>Name</label>
+              <label for="Name" name class="title">Name</label>
               <input
                 type="text"
                 name="Name"
@@ -669,7 +669,7 @@
               </svg>
             </div>
             <label class="form-group">
-              <span>Telefone</span>
+              <span class="title">Telefone</span>
               <input type="tel" id="phone" class="input-icon-name" />
               <svg
                 class="input-icon"
@@ -693,7 +693,7 @@
               </svg>
             </label>
             <label class="form-group">
-              <span>Email</span>
+              <span class="title">Email</span>
               <input type="email" id="email" class="input-icon-name" />
               <svg
                 class="input-icon"
@@ -716,19 +716,32 @@
                 </defs>
               </svg>
             </label>
-            <label for="">
-              <span
-                >I agree with the letter and accept the Terms and
-                Conditions</span
+            <div role="group" class="comment-form">
+              <label for="mesage" class="title">Comments</label>
+              <textarea
+                id="mesage"
+                name="mesage"
+                rows="3"
+                cols="10"
+                placeholder="Enter the text"
+              >
+              </textarea>
+            </div>
+            <label class="form-modal terms-conditions-checkbox">
+              <input type="checkbox" class="checkmark">
+              <span class="terms-info"
+                >I agree with the letter and accept the <span class="terms-and-conditions">Terms and
+                  Conditions</span></span
               >
             </label>
           </label>
-          <label class="form-group">
-            <span class="inside-box-email">Email</span>
-            <input type="email" id="email" class="input-icon-name" />
-            
-          </label>
-          </form>
+          <div class="form-modal">
+            <button class="submit-button">Send</button>
+          </div>
+              
+         
+         
+         
           <div class="hover-btn">
             <svg
               class="hover-btn close"
