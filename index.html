@@ -621,7 +621,20 @@
         </footer>
       </section>
     </div>
-    <span></span>
+    <form class="form-footer">
+      <span class="subscribe-title">Subscribe to the newsletter</span>
+      <label class="form-footer-group">
+        <input type="text" id="email" placeholder="E-mail" />
+        <button type="submit" class="submit-btn">
+          <span class="subscribe-btn-content"
+            >Subscribe
+            <svg class="send-icon">
+              <use href="./icons/symbol-defsIIII.svg#icon-send"></use>
+            </svg>
+          </span>
+        </button>
+      </label>
+    </form>
     <!--Modal-->
 
     <body>
@@ -635,7 +648,7 @@
         <!-- Modal content -->
         <div class="modal-content">
        
-          <form class="form">
+          <form class="form"> 
             <h1 class="text-form-title">
               Leave your information and we'll call you back
             </h1>
@@ -719,19 +732,18 @@
             <div role="group" class="comment-form">
               <label for="mesage" class="title">Comments</label>
               <textarea
-                id="mesage"
-                name="mesage"
-                rows="3"
-                cols="10"
-                placeholder="Enter the text"
-              >
+              id="comments"
+              cols="30"
+              rows="5"
+              placeholder="Enter the text"
+            ></textarea>
               </textarea>
             </div>
             <label class="form-modal terms-conditions-checkbox">
               <input type="checkbox" class="checkmark">
               <span class="terms-info"
-                >I agree with the letter and accept the <span class="terms-and-conditions">Terms and
-                  Conditions</span></span
+                >I agree with the letter and accept the <a class="terms-and-conditions" href="/portfolio.html">Terms and
+                  Conditions</a></span
               >
             </label>
           </label>
