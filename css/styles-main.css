@@ -94,7 +94,15 @@ ul {
 .header-mail-phone {
   margin-right: 20px;
 }
-
+.menu-btn {
+  color: rgb(219, 9, 9);
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 22px;
+  right: 147px;
+  cursor: pointer;
+}
 .header-logo {
   border: 0px solid #ececec;
   display: flex;
@@ -1484,7 +1492,11 @@ textarea {
   line-height: 30px;
   letter-spacing: 0.96px;
 }
-
+@media screen and (min-width: 480px) {
+  .element {
+    /* phone styles */
+  }
+}
 @media screen and (min-width: 768px) {
   .element {
     /* Tablet styles */
